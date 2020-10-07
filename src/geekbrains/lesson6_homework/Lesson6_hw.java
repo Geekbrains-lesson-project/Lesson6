@@ -1,5 +1,5 @@
 package geekbrains.lesson6_homework;
-import java.util.Random;
+
 public class Lesson6_hw {
 
     public static void main(String[] args) {
