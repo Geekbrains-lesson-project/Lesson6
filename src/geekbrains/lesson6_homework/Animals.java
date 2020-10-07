@@ -19,17 +19,17 @@ protected String name;
          else System.out.println(this.animal + " " + this.name + " не может бежать так далеко");
      }
 
-     public void jump(double height) {// информация по испытанию объекта в прыжках
+     public void jump(double height) {//информация по испытанию объекта в прыжках
          if (this.limitJump >= height)
              System.out.println(this.animal + " " + this.name + " прыгает: " + height + " м.");
          else System.out.println(this.animal + " " + this.name + " не может прыгнуть так высоко");
      }
-     public void swim(int dist) {// информация по испытанию объекта в плавании
+     public void swim(int dist) {//информация по испытанию объекта в плавании
          if (this.limitSwim >= dist) System.out.println(this.animal + " " + this.name + " проплывает: " + dist + " м.");
          else System.out.println(this.animal + " " + this.name + " не может плывть так далеко");
      }
 
-     public void animalInfo() { // info о характеристиках объекта при создании
+     public void animalInfo() { //info о характеристиках объекта при создании
          System.out.println(this.animal + " " + this.name + " может пробежать: " + this.limitRun + " м., может проплыть: "
                  + this.limitSwim
                  + " м., может прыгнуть: " + this.limitJump + " m.");
