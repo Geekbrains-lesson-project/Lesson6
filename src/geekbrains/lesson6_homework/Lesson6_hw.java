@@ -10,11 +10,12 @@ public class Lesson6_hw {
         Dog dog1 = new Dog("Мухтар");
         Dog dog2 = new Dog("Эдрик");
 
+        System.out.println("Информация о котах:");
         cat1.animalInfo();
         cat2.animalInfo();
-
         System.out.println();
 
+        System.out.println("Информация о обаках:");
         dog1.animalInfo();
         dog2.animalInfo();
 
